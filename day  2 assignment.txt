@@ -1,0 +1,9 @@
+Ans) p is a pointer to integer variable i and q is a pointer to integer variable j.
+So p is storing address of i and q is storing address of j.
+Now By the statement q=p, q is now storing the value of p, i.e. q is storing address of i.
+Now by *q=2, we are updating the value at the address stored in q, i.e. value of i=2.
+So by the last line, the final value of I and j will be printed.
+
+
+therefore output:
+ 2 0 
